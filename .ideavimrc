@@ -1,0 +1,14 @@
+let mapleader = " "
+set NERDTree
+Plug 'preservim/nerdtree'
+Plug 'https://github.com/preservim/nerdtree'
+Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree'
+Plug 'nerdtreeiii'
+""" mapings for nerdDree
+nmap <Tab> <Action>(NextTab)
+nmap <S-Tab> <Action>(PreviousTab)
+map <C-n> :NERDTreeToggle<CR>
+set ideajoin
+set clipboard+=ideaput
+
